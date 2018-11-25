@@ -1,0 +1,129 @@
+body, html {padding:0; margin:0;}
+
+h1{color: white;position: absolute;font-size: 5.4vw;margin-top: -120px;}
+
+nav{
+  background: #fff;
+  position: fixed;
+  z-index: 999;
+}
+nav ul li a {
+  color:black;
+}
+nav ul li a:hover {
+  color:white;
+  background: black;
+}
+
+img{
+  width:200px;
+  height:170px;
+}
+
+.video{
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.thumb{
+  position: absolute;
+  margin-top: 56.5%;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.img ul {
+  display:flex;
+  flex-wrap: wrap;
+}
+.img li{
+  list-style: none;
+  padding:2px;
+}
+.img li:hover{
+  list-style: none;
+  transform: scale(1.2);
+  transition: 1s;sdsd
+}
+.img{padding:10px;}
+
+.img ul li p {
+  background: black;
+  margin:0;
+  padding:0;
+}
+
+.imgResult ul {
+  display:flex;
+  flex-wrap: wrap;
+}
+.imgResult li{
+  list-style: none;
+  padding:2px;
+}
+
+.imgResult{padding:10px;}
+
+.mars{
+  background: orange;apollo
+  height:300px;
+}
+
+.terre{
+  background: #FFCA28;33
+  height:300px;
+}
+
+.galaxy{
+  background: #26C6DA;
+  height:300px;30
+}
+
+.search{
+ padding-top: 25%;
+ width: 50%;
+ margin: 0 auto;
+
+}
+
+#search{
+  color: black; background:white;opacity:0.5;
+}
+#search:hover{
+  color: black; background:white;opacity:1; transition:1s;
+}
+
+input#search{
+  padding:0px 20px 0px 20px;
+}
+#choice p {
+  padding-right:20px;
+}
+form#choice{
+  background: white;
+}
+.SearchItems{
+  background: white;
+  color: black;
+  padding:10px;
+  width: auto;
+  margin-top:-8px;
+  border-top:1px solid black;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.input-field input[type=search] {
+  background: white;
+}
+
+#loader{
+  margin-top:10%;
+}
+
+@media screen and (max-width: 800px) {
+  h1{display:none;}
+  .search{padding-top: 32%; margin-right: 30%;}
+}

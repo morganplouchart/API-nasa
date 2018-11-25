@@ -1,0 +1,48 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="index.php" class="brand-logo"><img src="img/logo.png"/></a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color:black;">|||</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="mars.html">Mars</a></li>
+      <li><a href="terre.html">Terre</a></li>
+      <li><a href="galaxy.html">Galaxy</a></li>
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="mars.html">Mars</a></li>
+  <li><a href="terre.html">Terre</a></li>
+  <li><a href="galaxy.html">Galaxy</a></li>
+</ul>
+<div class="search">
+  <form>
+    <h1>Welcome to API/nasa</h1>
+     <div class="input-field">
+       <input id="search" type="text" placeholder="Search press enter" onclick="onClick();">
+       <p class="SearchItems"></p>
+       <!-- <i class="material-icons">close</i> -->
+     </div>
+   </form>
+   <div>
+   <form id="choice"  style="background:black;">
+    <p>
+      <label>
+        <input type="checkbox" id="images" />
+        <span>Images</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" id="videos"/>
+        <span>vidéos</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" id="sounds"/>
+        <span>Sound</span>
+      </label>
+    </p>
+  </form>
+  </div>
+</div>
